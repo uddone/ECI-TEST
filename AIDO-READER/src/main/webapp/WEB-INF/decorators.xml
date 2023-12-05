@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<!-- /WEB-INF/decorators.xml -->
+<decorators defaultdir="/layout">
+	<decorator name="main" page="MAIN_layout.jsp">
+		<pattern>*.ai</pattern>
+	</decorator>
+	<excludes>
+		<pattern>/LOGIN*</pattern>
+		<pattern>/TEST*</pattern>
+		<pattern>/FIND*</pattern>
+		<pattern>/CRD*</pattern>
+		<pattern>/REUPLOAD*</pattern>
+		<pattern>/SEND_DATA*</pattern>
+		<pattern>/OMR_SEL*</pattern>
+		<pattern>/OMR_CARD*</pattern>
+		<pattern>/OMR_DATA*</pattern>
+		<pattern>/FILT*</pattern>
+		<pattern>/SEL*</pattern>
+		<pattern>/imgdwld*</pattern>
+		<pattern>/IMG_WIN*</pattern>
+		<pattern>/reuploadimg*</pattern>
+		<pattern>/updcheck*</pattern>	
+		<pattern>/REUPLD_VIEW*</pattern>	
+	</excludes>
+</decorators>
